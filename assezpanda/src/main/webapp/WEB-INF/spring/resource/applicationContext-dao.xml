@@ -30,7 +30,7 @@
 		</property>
 		<property name="packagesToScan">
 			<list>
-				<value>com.fbt.assezpanda.dao.entities</value>
+				<value>com.test.assezpanda.dao.entities</value>
 			</list>
 		</property>
 	</bean>
