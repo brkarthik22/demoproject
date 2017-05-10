@@ -7,17 +7,17 @@
 
 
 	<bean class="org.springframework.mail.javamail.JavaMailSenderImpl">
-		<property name="host" value="smtp.talentex.in" />
+		<property name="host" value="smtp.xxx.in" />
 		<property name="port" value="25" />
-		<property name="username" value="info@talentex.in" />
-		<property name="password" value="TaleAccess$789" /> 
+		<property name="username" value="info@xxx.in" />
+		<property name="password" value="xxxx" /> 
 		<property name="javaMailProperties">
 			<props>
 				<prop key="mail.smtp.auth">true</prop>
 				<prop key="mail.smtp.starttls.enable">true</prop>
 				<prop key="mail.debug">false</prop>
 				<prop key="mail.smtp.ssl.enable">false</prop>
-				<prop key="mail.smtp.ssl.trust">smtp.talentex.in</prop>
+				<prop key="mail.smtp.ssl.trust">smtp.xxx.in</prop>
 			</props>
 		</property>
 	</bean>
